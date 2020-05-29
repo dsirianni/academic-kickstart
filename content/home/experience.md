@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   date_start = "2020-05-18"
   date_end = ""
-  description = ""
+  description = """
   Responsibilities include:
   
   * Performing & publishing original scientific research
@@ -36,6 +36,5 @@ date_format = "Jan 2006"
   company_url = ""
   date_start = "2015-08-01"
   date_end = "2020-05-17"
-  description = ""
 
 +++

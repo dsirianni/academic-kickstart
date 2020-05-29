@@ -9,19 +9,45 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 20
-
-[[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Research"
+  #url = "#research"
+  identifier = "research-main"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "Research Interests"
+  url = "#projects"
+  parent = "research-main"
   weight = 40
+
+[[main]]
+  name = "Publications"
+  url = "#publications"
+  parent = "research-main"
+  weight = 40
+
+[[main]]
+  name = "Teaching"
+  #url = "#teaching"
+  identifier = "teaching-main"
+  weight = 30
+
+[[main]]
+  name = "Teaching Philosophy"
+  url = "#teaching-phil"
+  parent = "teaching-main"
+  weight = 40
+
+[[main]]
+  name = "Courses"
+  url = "#courses"
+  parent = "teaching-main"
+  weight = 40
+
+[[main]]
+  name = "Blog"
+  url = "#blog"
+  weight = 20
 
 [[main]]
   name = "Contact"
